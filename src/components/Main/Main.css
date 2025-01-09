@@ -1,3 +1,19 @@
+@font-face {
+  font-family: FiraSans;
+  src: url(../../vendor/fonts/FiraSans-Regular.ttf);
+}
+
 .main {
+  padding: 4rem 12% 4rem;
+  font-family: FiraSans;
+}
+
+.main__title {
   color: white;
+  font-size: 3.5em;
+}
+
+.main__title-name {
+  color: rgb(114, 229, 225);
+  text-shadow: 0 0 25px rgb(85, 192, 234);
 }
