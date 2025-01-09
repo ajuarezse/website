@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.header__title {
+  font-size: 2em;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  gap: 12px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 8px 12px;
+}
+
+.header__nav-link:hover {
+  cursor: pointer;
+}

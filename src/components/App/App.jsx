@@ -5,10 +5,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
+    <div className="app">
+      <div className="app__content">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </div>
   );
 }
