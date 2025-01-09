@@ -2,9 +2,9 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div>
-      <h3 className="footer">Footer</h3>
-    </div>
+    <footer className="footer">
+      <p className="footer__credit">@ 2025 Angel Juarez</p>
+    </footer>
   );
 }
 

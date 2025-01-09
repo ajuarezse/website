@@ -1,3 +1,15 @@
+@font-face {
+  font-family: FiraSans;
+  src: url(../../vendor/fonts/FiraSans-Regular.ttf);
+}
+
 .footer {
+  padding: 4rem 12% 4rem;
+  font-family: FiraSans;
+}
+
+.footer__credit {
   color: white;
+  text-align: center;
+  font-size: 0.9em;
 }

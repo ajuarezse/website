@@ -6,6 +6,7 @@
 .main {
   padding: 4rem 12% 4rem;
   font-family: FiraSans;
+  min-height: 100vh;
 }
 
 .main__title {
