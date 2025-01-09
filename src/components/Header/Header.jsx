@@ -3,9 +3,9 @@ import "./Header.css";
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__logo">
+      <a href="#home" className="header__logo">
         Angel <span className="header__logo-last">Juarez</span>
-      </h1>
+      </a>
       <nav className="header__nav" role="navigation">
         <a href="#home" className="header__nav-link">
           Home

@@ -3,7 +3,7 @@ import "./Main.css";
 function Main() {
   return (
     <div>
-      <h2>Main</h2>
+      <h2 className="main">Main</h2>
     </div>
   );
 }
