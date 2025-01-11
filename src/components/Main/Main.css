@@ -19,3 +19,8 @@
   color: rgb(114, 229, 225);
   text-shadow: 0 0 25px rgb(85, 192, 234);
 }
+
+.main__typing {
+  margin: auto;
+  font-size: 0.6em;
+}

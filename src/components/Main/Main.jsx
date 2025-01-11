@@ -18,7 +18,7 @@ function Main() {
             cursor
             cursorStyle="_"
             typeSpeed={70}
-            deleteSpeed={50}
+            deleteSpeed={20}
             delaySpeed={2000}
           />
         </p>
