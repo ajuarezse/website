@@ -69,3 +69,16 @@
     opacity: 0;
   }
 }
+
+.main__about {
+  color: grey;
+  width: 40%;
+  text-align: justify;
+  padding: 80px 0px;
+}
+
+.main__content {
+  display: flex;
+  justify-content: center;
+  animation: fadeIn 2s ease-in-out;
+}
