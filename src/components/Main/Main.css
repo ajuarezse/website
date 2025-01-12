@@ -56,5 +56,16 @@
   animation: gradientShift 3s linear infinite;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
+}
+
+.main__typing-gradient::after {
+  content: "_";
+  color: #72e5e1; /* Ensures the cursor remains visible */
+  animation: blink 0.8s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
