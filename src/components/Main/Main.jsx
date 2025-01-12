@@ -6,8 +6,10 @@ function Main() {
     <main className="main">
       <h2 className="main__title">
         Hi, I'm <span className="main__title-name">Angel</span>
-        <p className="main__typing">
-          I'm a
+      </h2>
+      <p className="main__typing">
+        I'm a{" "}
+        <span className="main__typing-gradient">
           <Typewriter
             words={[
               " Front-End Developer",
@@ -21,8 +23,8 @@ function Main() {
             deleteSpeed={20}
             delaySpeed={2000}
           />
-        </p>
-      </h2>
+        </span>
+      </p>
     </main>
   );
 }

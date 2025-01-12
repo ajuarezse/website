@@ -7,12 +7,15 @@
   padding: 4rem 12% 4rem;
   font-family: FiraSans;
   min-height: 100vh;
+  text-align: center;
 }
 
 .main__title {
   color: white;
   font-size: 3.5em;
-  padding: 2em 0em;
+  padding: 2em 0em 0em;
+  margin-bottom: 8px;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .main__title-name {
@@ -21,6 +24,37 @@
 }
 
 .main__typing {
+  color: white;
   margin: auto;
-  font-size: 0.6em;
+  font-size: 2em;
+  animation: fadeIn 3.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.main__typing-gradient {
+  background: linear-gradient(90deg, #72e5e1, #2575fc, #72e5e1);
+  background-size: 500% 500%;
+  animation: gradientShift 3s linear infinite;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
 }
