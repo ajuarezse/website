@@ -4,11 +4,12 @@ import projectsData from "../../data/projectsData";
 import "./Projects.css";
 
 function Projects() {
+  const featuredProjects = projectsData.filter((project) => project.featured);
   return (
     <section className="projects" id="projects">
       <h1 className="projects__title">Projects Section</h1>
       <div className="projects__list">
-        {projectsData.map((project, index) => (
+        {featuredProjects.map((project, index) => (
           <FeaturedProjects
             key={index}
             title={project.title}
