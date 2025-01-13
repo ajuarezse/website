@@ -10,8 +10,8 @@ function Header() {
         <a href="#home" className="header__nav-link">
           Home
         </a>
-        <a href="#portfolio" className="header__nav-link">
-          Portfolio
+        <a href="#projects" className="header__nav-link">
+          Projects
         </a>
         <a href="#skills" className="header__nav-link">
           Skills
