@@ -1,3 +1,11 @@
+@font-face {
+  font-family: FiraSans;
+  src: url(../../vendor/fonts/FiraSans-Regular.ttf);
+}
+
 .projects {
+  padding: 4rem 12% 4rem;
+  font-family: FiraSans;
+  min-height: 90vh;
   color: white;
 }

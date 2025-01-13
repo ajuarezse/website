@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 function Main() {
   return (
-    <main className="main">
+    <main className="main" id="home">
       <h2 className="main__title">
         Hi, I'm <span className="main__title-name">Angel</span>
       </h2>
