@@ -1,0 +1,9 @@
+.featured-project {
+  display: flex;
+  gap: 16px;
+}
+
+.featured-project__image {
+  width: 350px;
+  height: 200px;
+}
