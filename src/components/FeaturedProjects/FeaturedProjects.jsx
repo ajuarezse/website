@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./FeaturedProjects.css";
 
 function FeaturedProjects({
@@ -13,7 +14,7 @@ function FeaturedProjects({
     <div className="featured-project">
       <img
         src={image}
-        alt={`${title} screenshot`}
+        alt={`Screenshot of ${title}`}
         className="featured-project__image"
       />
       <div className="featured-project__content">
@@ -21,29 +22,51 @@ function FeaturedProjects({
         <h3 className="featured-project__title">{title}</h3>
         <p className="featured-project__description">{description}</p>
         <p className="featured-project__technologies">
-          {technologies.join(" • ")}
+          {Array.isArray(technologies) ? technologies.join(" • ") : ""}
         </p>
         <div className="featured-project__links">
-          <a
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="featured-project__link"
-          >
-            Github
-          </a>
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="featured-project__link"
-          >
-            ViewProject
-          </a>
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="featured-project__link"
+            >
+              Github
+            </a>
+          )}
+          {link && (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="featured-project__link"
+            >
+              View Project
+            </a>
+          )}
         </div>
       </div>
     </div>
   );
 }
+
+FeaturedProjects.defaultProps = {
+  title: "Project Title",
+  description: "Project description not available.",
+  github: "#",
+  link: "#",
+  image: "default-image.png",
+  technologies: [],
+};
+
+FeaturedProjects.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  github: PropTypes.string,
+  link: PropTypes.string,
+  image: PropTypes.string.isRequired,
+  technologies: PropTypes.arrayOf(PropTypes.string),
+};
 
 export default FeaturedProjects;
