@@ -9,3 +9,8 @@
   min-height: 90vh;
   color: white;
 }
+
+.projects__title {
+  color: grey;
+  font-size: 2em;
+}

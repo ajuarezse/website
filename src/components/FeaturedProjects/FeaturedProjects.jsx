@@ -17,6 +17,7 @@ function FeaturedProjects({
         className="featured-project__image"
       />
       <div className="featured-project__content">
+        <h2 className="featured-project__header">Featured Project</h2>
         <h3 className="featured-project__title">{title}</h3>
         <p className="featured-project__description">{description}</p>
         <p className="featured-project__technologies">

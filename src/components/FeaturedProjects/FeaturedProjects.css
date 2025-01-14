@@ -1,6 +1,25 @@
+@font-face {
+  font-family: FiraSansLight;
+  src: url(../../vendor/fonts/FiraSans-Light.ttf);
+}
+
 .featured-project {
   display: flex;
   gap: 16px;
+}
+
+.featured-project__content {
+  text-align: right;
+}
+
+.featured-project__header {
+  margin: auto;
+  font-family: FiraSansLight;
+  color: rgb(114, 229, 225);
+}
+
+.featured-project__title {
+  font-size: 2em;
 }
 
 .featured-project__image {

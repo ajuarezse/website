@@ -7,7 +7,7 @@ function Projects() {
   const featuredProjects = projectsData.filter((project) => project.featured);
   return (
     <section className="projects" id="projects">
-      <h1 className="projects__title">Projects Section</h1>
+      <h1 className="projects__title">My Work</h1>
       <div className="projects__list">
         {featuredProjects.map((project, index) => (
           <FeaturedProjects
