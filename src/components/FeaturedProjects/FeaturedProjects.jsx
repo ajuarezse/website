@@ -1,7 +1,14 @@
 import React from "react";
 import "./FeaturedProjects.css";
 
-function FeaturedProjects({ title, description, link, image }) {
+function FeaturedProjects({
+  title,
+  description,
+  github,
+  link,
+  image,
+  technologies,
+}) {
   return (
     <div className="featured-project">
       <img
@@ -12,14 +19,27 @@ function FeaturedProjects({ title, description, link, image }) {
       <div className="featured-project__content">
         <h3 className="featured-project__title">{title}</h3>
         <p className="featured-project__description">{description}</p>
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="featured-project__link"
-        >
-          ViewProject
-        </a>
+        <p className="featured-project__technologies">
+          {technologies.join(" • ")}
+        </p>
+        <div className="featured-project__links">
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="featured-project__link"
+          >
+            Github
+          </a>
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="featured-project__link"
+          >
+            ViewProject
+          </a>
+        </div>
       </div>
     </div>
   );

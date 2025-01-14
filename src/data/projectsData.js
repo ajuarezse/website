@@ -6,6 +6,7 @@ const projectsData = [
     image: "src/assets/WTWRScreenshot.png",
     technologies: [
       "React",
+      "API Integration",
       "Vite",
       "Javascript (ES6+)",
       "GCS",
@@ -16,6 +17,15 @@ const projectsData = [
     github: "https://github.com/ajuarezse/se_project_react",
     link: "https://wtwr.ftp.sh/",
     featured: true,
+  },
+  {
+    title: "",
+    description: "",
+    image: "",
+    technologies: [""],
+    github: "",
+    link: "",
+    featured: false,
   },
 ];
 
