@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./FeaturedProjects.css";
+import { ReactComponent as GitHubIcon } from "../../assets/github-svgrepo-com.svg";
 
 function FeaturedProjects({
-  title,
-  description,
-  github,
-  link,
-  image,
-  technologies,
+  title = "Project Title",
+  description = "Project description not available.",
+  github = "#",
+  link = "#",
+  image = "default-image.png",
+  technologies = [],
 }) {
   return (
     <div className="featured-project">
@@ -32,7 +33,7 @@ function FeaturedProjects({
               rel="noopener noreferrer"
               className="featured-project__link"
             >
-              Github
+              <GitHubIcon className="featured-project__icon" />
             </a>
           )}
           {link && (
@@ -50,15 +51,6 @@ function FeaturedProjects({
     </div>
   );
 }
-
-FeaturedProjects.defaultProps = {
-  title: "Project Title",
-  description: "Project description not available.",
-  github: "#",
-  link: "#",
-  image: "default-image.png",
-  technologies: [],
-};
 
 FeaturedProjects.propTypes = {
   title: PropTypes.string.isRequired,

@@ -42,4 +42,15 @@
 
 .featured-project__link {
   margin-right: 1rem;
+  columns: white;
+}
+
+.featured-project__icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.featured-project__icon:hover {
+  fill: rgb(114, 229, 225);
 }
