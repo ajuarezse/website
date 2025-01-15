@@ -22,10 +22,12 @@ function FeaturedProjects({
       <div className="featured-project__content">
         <h2 className="featured-project__header">Featured Project</h2>
         <h3 className="featured-project__title">{title}</h3>
-        <p className="featured-project__description">{description}</p>
-        <p className="featured-project__technologies">
-          {Array.isArray(technologies) ? technologies.join(" • ") : ""}
-        </p>
+        <div className="featured-project__details">
+          <p className="featured-project__description">{description}</p>
+          <p className="featured-project__technologies">
+            {Array.isArray(technologies) ? technologies.join(" • ") : ""}
+          </p>
+        </div>
         <div className="featured-project__links">
           {github && (
             <a
