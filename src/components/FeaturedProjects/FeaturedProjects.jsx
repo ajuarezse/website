@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./FeaturedProjects.css";
 import { ReactComponent as GitHubIcon } from "../../assets/github-svgrepo-com.svg";
+import { ReactComponent as WebIcon } from "../../assets/website-dashboard-svgrepo-com.svg";
 
 function FeaturedProjects({
   title = "Project Title",
@@ -43,7 +44,7 @@ function FeaturedProjects({
               rel="noopener noreferrer"
               className="featured-project__link"
             >
-              View Project
+              <WebIcon className="featured-project__icon" />
             </a>
           )}
         </div>
