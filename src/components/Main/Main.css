@@ -4,15 +4,28 @@
 }
 
 .main {
-  padding: 4rem 12% 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 12%;
   font-family: FiraSans;
   min-height: 100vh;
+}
+
+.main__intro {
+  flex: 1;
+  text-align: left;
+}
+
+.main__skills {
+  flex: 1;
+  text-align: left;
 }
 
 .main__title {
   color: white;
   font-size: 3.5em;
-  padding: 3em 0em 0em;
   margin-bottom: 8px;
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -24,7 +37,7 @@
 
 .main__typing {
   color: white;
-  margin: auto;
+  margin-bottom: 2rem;
   font-size: 2em;
   animation: fadeIn 3.5s ease-in-out;
 }
@@ -59,7 +72,7 @@
 
 .main__typing-gradient::after {
   content: "_";
-  color: #72e5e1; /* Ensures the cursor remains visible */
+  color: #72e5e1;
   animation: blink 0.8s step-end infinite;
 }
 
@@ -71,7 +84,7 @@
 
 .main__about {
   color: rgb(134, 134, 134);
-  width: 45%;
+  width: 100%;
   text-align: justify;
   padding: 10px 0px;
 }
@@ -81,7 +94,24 @@
 }
 
 .main__skills {
-  padding: 4rem 12% 4rem;
-  font-family: FiraSans;
   color: white;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding: 2rem 5%;
+  }
+
+  .main__intro,
+  .main__skills {
+    text-align: center;
+  }
+
+  .main__skills {
+    margin-top: 2rem;
+  }
 }
