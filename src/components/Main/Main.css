@@ -12,7 +12,7 @@
 .main__title {
   color: white;
   font-size: 3.5em;
-  padding: 2em 0em 0em;
+  padding: 3em 0em 0em;
   margin-bottom: 8px;
   animation: fadeIn 1.5s ease-in-out;
 }
@@ -78,4 +78,10 @@
 
 .main__content {
   animation: fadeIn 2s ease-in-out;
+}
+
+.main__skills {
+  padding: 4rem 12% 4rem;
+  font-family: FiraSans;
+  color: white;
 }
