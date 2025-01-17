@@ -13,13 +13,14 @@ function SocialList() {
         <GithubIcon className="social-list__icon" />
       </a>
       <a
-        href="https://linkedin.com/in/ajuarezse"
+        href="https://www.linkedin.com/in/angel-juarez-tech/"
         target="_blank"
         rel="noopener noreferrer"
         className="social-list__link"
       >
         <LinkedinIcon className="social-list__icon" />
       </a>
+      <div className="social-list__line"></div>
     </nav>
   );
 }
