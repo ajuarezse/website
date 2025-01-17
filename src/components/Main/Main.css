@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 12%;
+  padding: 0px 10%;
   font-family: FiraSans;
   min-height: 100vh;
 }
@@ -110,5 +110,11 @@
 
   .main__skills {
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .main__typing-gradient {
+    font-size: 0.8em;
   }
 }

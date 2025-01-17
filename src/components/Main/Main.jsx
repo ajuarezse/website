@@ -9,7 +9,7 @@ function Main() {
           Hi, I'm <span className="main__title-name">Angel</span>
         </h2>
         <p className="main__typing">
-          I'm a{" "}
+          I'm a <br />
           <span className="main__typing-gradient">
             <Typewriter
               words={[
