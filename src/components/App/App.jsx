@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
+import SocialList from "../SocialList/SociaList";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Projects />
         <Footer />
       </div>
+      <SocialList />
     </div>
   );
 }

@@ -11,6 +11,8 @@ import {
 } from "../../assets/icons/icons";
 
 function Main() {
+  {
+    /*
   const skills = [
     { id: 1, icon: <ReactIcon />, label: "React" },
     { id: 2, icon: <JavascriptIcon />, label: "Javascript" },
@@ -19,8 +21,6 @@ function Main() {
     { id: 5, icon: <NodejsIcon />, label: "Node.js" },
     { id: 6, icon: <GcpIcon />, label: "GCP" },
   ];
-  {
-    /*
   const [currentSkill, setCurrentSkill] = useState(0);
 
   useEffect(() => {
