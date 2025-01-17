@@ -19,7 +19,8 @@ function Main() {
     { id: 5, icon: <NodejsIcon />, label: "Node.js" },
     { id: 6, icon: <GcpIcon />, label: "GCP" },
   ];
-
+  {
+    /*
   const [currentSkill, setCurrentSkill] = useState(0);
 
   useEffect(() => {
@@ -29,7 +30,8 @@ function Main() {
 
     return () => clearInterval(interval);
   }, [skills.length]);
-
+*/
+  }
   return (
     <main className="main" id="home">
       <div className="main__intro">
@@ -37,13 +39,13 @@ function Main() {
           Hi, I'm <span className="main__title-name">Angel</span>
         </h2>
         <p className="main__typing">
-          I'm a <br />
+          I'm a
           <span className="main__typing-gradient">
             <Typewriter
               words={[
-                "Front-End Developer",
-                "Back-End Developer",
-                "Full-Stack Web Engineer",
+                " Front-End Developer",
+                " Back-End Developer",
+                " Full-Stack Web Engineer",
               ]}
               loop={Infinity}
               cursor
@@ -64,10 +66,12 @@ function Main() {
           </p>
         </section>
       </div>
+      {/*
       <div className="main__skills">
         <div className="main__skills-icon">{skills[currentSkill].icon}</div>
         <p className="main__skills-label">{skills[currentSkill].label}</p>
       </div>
+      */}
     </main>
   );
 }
