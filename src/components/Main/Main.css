@@ -66,7 +66,7 @@
 .main__typing {
   margin: auto;
   color: white;
-  font-size: 3em;
+  font-size: 2.8em;
   animation: fadeIn 3.5s ease-in-out;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .main__about {
-  color: rgb(134, 134, 134);
+  color: rgb(178, 178, 178);
   width: 60%;
   text-align: justify;
   padding: 10px 0px;
