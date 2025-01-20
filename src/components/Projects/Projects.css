@@ -25,3 +25,9 @@
   background-color: rgb(178, 178, 178, 60%);
   width: 25%;
 }
+
+.projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}

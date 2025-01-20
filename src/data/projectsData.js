@@ -19,6 +19,22 @@ const projectsData = [
     featured: true,
   },
   {
+    title: "Son Jarocho SongBook",
+    description:
+      "testing text here. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog.",
+    image: "src/assets/WTWRScreenshot.png",
+    technologies: [
+      "React",
+      "Javascript (ES6+)",
+      "Vite",
+      "Github",
+      "Spotify API Integration",
+    ],
+    github: "https://github.com/ajuarezse/tripleTenFinalProject_React",
+    link: "https://ajuarezse.github.io/tripleTenFinalProject_React/",
+    featured: true,
+  },
+  {
     title: "",
     description: "",
     image: "",
