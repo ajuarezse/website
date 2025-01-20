@@ -32,9 +32,9 @@ function Header() {
         <a href="#projects" className="header__nav-link">
           Projects
         </a>
-        <a href="#skills" className="header__nav-link">
+        {/*<a href="#skills" className="header__nav-link">
           Skills
-        </a>
+        </a>*/}
       </nav>
     </header>
   );

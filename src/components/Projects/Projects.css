@@ -11,6 +11,17 @@
 }
 
 .projects__title {
-  color: grey;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+  color: rgb(178, 178, 178);
   font-size: 2em;
+  gap: 1rem;
+}
+
+.projects__title-line {
+  display: inline-block;
+  height: 2px;
+  background-color: rgb(178, 178, 178, 60%);
+  width: 25%;
 }
