@@ -31,3 +31,10 @@
   flex-direction: column;
   gap: 7rem;
 }
+
+.projectsOther {
+}
+
+.projectsOther__header {
+  color: white;
+}
