@@ -1,10 +1,14 @@
 import React from "react";
 import FeaturedProjects from "../FeaturedProjects/FeaturedProjects";
+import ProjectCard from "../ProjectCard/ProjectCard";
 import projectsData from "../../data/projectsData";
 import "./Projects.css";
 
 function Projects() {
   const featuredProjects = projectsData.filter((project) => project.featured);
+  const nonFeaturedProjects = projectsData.filter(
+    (project) => !project.featured
+  );
   return (
     <section className="projects" id="projects">
       <h1 className="projects__title">
@@ -20,6 +24,17 @@ function Projects() {
             image={project.image}
             github={project.github}
             link={project.link}
+            technologies={project.technologies}
+          />
+        ))}
+      </div>
+      <h2 className="projects__sub-title">Other Projects</h2>
+      <div className="projects__grid">
+        {nonFeaturedProjects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
             technologies={project.technologies}
           />
         ))}

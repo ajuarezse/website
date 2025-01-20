@@ -32,9 +32,7 @@
   gap: 7rem;
 }
 
-.projectsOther {
-}
-
-.projectsOther__header {
+.projects__sub-title {
   color: white;
+  padding-top: 3em;
 }
