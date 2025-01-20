@@ -51,8 +51,20 @@
   position: absolute;
   width: 100%;
   max-width: 700px;
-  min-height: 500px;
+  min-height: 400px;
   border-radius: 10px;
+  filter: grayscale(50%);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.featured-project__image-link:hover .featured-project__image {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.featured-project__image-link {
+  display: inline-block;
+  overflow: hidden;
 }
 
 .featured-project__link {

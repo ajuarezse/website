@@ -3,7 +3,7 @@ const projectsData = [
     title: "WTWR (What to Wear)",
     description:
       "A React-based application that helps users select suitable clothing based on real-time weather data. Users can securely sign up and sign in to access the app's features, including uploading and managing their clothing items.",
-    image: "src/assets/WTWRScreenshot.png",
+    image: "src/assets/WTWR.png",
     technologies: [
       "React",
       "API Integration",
@@ -22,7 +22,7 @@ const projectsData = [
     title: "Son Jarocho SongBook",
     description:
       "testing text here. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog.",
-    image: "src/assets/WTWRScreenshot.png",
+    image: "src/assets/SonJarocho.png",
     technologies: [
       "React",
       "Javascript (ES6+)",

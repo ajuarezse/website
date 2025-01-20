@@ -13,11 +13,18 @@ function FeaturedProjects({
 }) {
   return (
     <div className="featured-project">
-      <img
-        src={image}
-        alt={`Screenshot of ${title}`}
-        className="featured-project__image"
-      />
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="featured-project__image-link"
+      >
+        <img
+          src={image}
+          alt={`Screenshot of ${title}`}
+          className="featured-project__image"
+        />
+      </a>
       <div className="featured-project__content">
         <h2 className="featured-project__header">Featured Project</h2>
         <h3 className="featured-project__title">{title}</h3>

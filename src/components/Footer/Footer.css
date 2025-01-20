@@ -3,13 +3,18 @@
   src: url(../../vendor/fonts/FiraSans-Regular.ttf);
 }
 
+@font-face {
+  font-family: FiraSansLight;
+  src: url(../../vendor/fonts/FiraSans-Light.ttf);
+}
+
 .footer {
-  padding: 4rem 12% 4rem;
-  font-family: FiraSans;
+  padding: 4rem 0 1rem;
+  font-family: FiraSansLight;
 }
 
 .footer__credit {
-  color: white;
+  color: rgb(178, 178, 178);
   text-align: center;
   font-size: 0.9em;
 }
