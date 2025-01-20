@@ -28,13 +28,18 @@ function Projects() {
           />
         ))}
       </div>
-      <h2 className="projects__sub-title">Other Projects</h2>
+      <h2 className="projects__sub-title">
+        My Other Projects
+        <span className="projects__title-line"></span>
+      </h2>
       <div className="projects__grid">
         {nonFeaturedProjects.map((project, index) => (
           <ProjectCard
             key={index}
             title={project.title}
             description={project.description}
+            github={project.github}
+            link={project.link}
             technologies={project.technologies}
           />
         ))}

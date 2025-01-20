@@ -33,6 +33,18 @@
 }
 
 .projects__sub-title {
-  color: white;
-  padding-top: 3em;
+  display: flex;
+  gap: 1rem;
+  color: rgb(178, 178, 178);
+  font-size: 1.8em;
+  padding-top: 4em;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
 }
