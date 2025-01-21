@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./ProjectCard.css";
+import { GithubIcon, WebIcon } from "../../assets/icons/icons";
 
 function ProjectCard({ title, description, github, link, technologies }) {
   return (
@@ -16,7 +17,7 @@ function ProjectCard({ title, description, github, link, technologies }) {
             rel="noopener noreferrer"
             className="project-card__link"
           >
-            GitHub
+            <GithubIcon className="project-card__icon" />
           </a>
         )}
         {link && (
@@ -26,7 +27,7 @@ function ProjectCard({ title, description, github, link, technologies }) {
             rel="noopener noreferrer"
             className="project-card__link"
           >
-            Live Demo
+            <WebIcon className="project-card__icon" />
           </a>
         )}
       </div>
