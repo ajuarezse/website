@@ -1,17 +1,23 @@
+@font-face {
+  font-family: FiraSansLight;
+  src: url(../../vendor/fonts/FiraSans-Light.ttf);
+}
+
 .project-card {
-  background-color: #153875bd;
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 9px rgba(114, 229, 225);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  font-family: FiraSansLight;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 2px 30px rgba(114, 229, 225);
 }
 
 .project-card__title {
@@ -31,6 +37,18 @@
 .project-card__links {
   display: flex;
   gap: 12px;
+}
+
+.project-card__icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.project-card__icon:hover {
+  fill: rgb(114, 229, 225);
+  transform: scale(1.5);
 }
 
 .project-card__link {
