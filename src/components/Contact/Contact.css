@@ -10,22 +10,81 @@
 
 .contact {
   padding: 5rem 12% 4rem;
-  min-height: 90vh;
+  min-height: 60vh;
   font-family: FiraSans;
   text-align: center;
+  background-color: #101820; /* Optional: A subtle background */
 }
 
 .contact__header {
   color: rgb(114, 229, 225);
   font-size: 1.5em;
   text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3rem;
 }
 
 .contact__sub-header {
   color: white;
   font-size: 2em;
+  margin-bottom: 1rem;
 }
 
 .contact__text {
+  font-family: FiraSansLight;
   color: white;
+  font-size: 1em;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  line-height: 1.5;
+}
+
+.contact__button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-family: FiraSans;
+  font-size: 1em;
+  font-weight: bold;
+  color: #101820;
+  background-color: rgb(114, 229, 225);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.contact__button:hover {
+  background-color: #0faba1;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 10px rgba(114, 229, 225, 0.5);
+}
+
+.contact__button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem 5%;
+  }
+
+  .contact__header {
+    font-size: 1.2em;
+  }
+
+  .contact__sub-header {
+    font-size: 1.5em;
+  }
+
+  .contact__text {
+    font-size: 0.9em;
+  }
+
+  .contact__button {
+    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+  }
 }

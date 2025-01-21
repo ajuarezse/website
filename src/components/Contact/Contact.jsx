@@ -3,12 +3,16 @@ import "./Contact.css";
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <h1 className="contact__header">What's Next?</h1>
+      <h1 className="contact__header">Where to now?</h1>
       <h2 className="contact__sub-header">Get in Touch</h2>
       <p className="contact__text">
-        I’m open to new and exciting opportunities and collaborations! Feel free
-        to reach out and I’ll try my best to get back to you!
+        I'm eager to connect with talented individuals and explore exciting new
+        projects. Let's collaborate and create something amazing! Feel free to
+        reach out – I'm always open to new opportunities.
       </p>
+      <a href="mailto:ajuarez.se@gmail.com" className="contact__button">
+        Say Hi!
+      </a>
     </section>
   );
 }
