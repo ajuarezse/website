@@ -1,6 +1,31 @@
+@font-face {
+  font-family: FiraSans;
+  src: url(../../vendor/fonts/FiraSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: FiraSansLight;
+  src: url(../../vendor/fonts/FiraSans-Light.ttf);
+}
+
 .contact {
+  padding: 5rem 12% 4rem;
+  min-height: 90vh;
+  font-family: FiraSans;
+  text-align: center;
 }
 
 .contact__header {
+  color: rgb(114, 229, 225);
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.contact__sub-header {
+  color: white;
+  font-size: 2em;
+}
+
+.contact__text {
   color: white;
 }
