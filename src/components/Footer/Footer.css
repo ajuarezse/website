@@ -1,20 +1,15 @@
 @font-face {
-  font-family: FiraSans;
-  src: url(../../vendor/fonts/FiraSans-Regular.ttf);
-}
-
-@font-face {
   font-family: FiraSansLight;
   src: url(../../vendor/fonts/FiraSans-Light.ttf);
 }
 
 .footer {
-  padding: 4rem 0 1rem;
+  padding: 1rem 0 0rem;
   font-family: FiraSansLight;
 }
 
 .footer__credit {
-  color: rgb(178, 178, 178);
+  color: gray;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
