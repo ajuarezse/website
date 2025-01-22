@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import "./Main.css";
 import { Typewriter } from "react-simple-typewriter";
 

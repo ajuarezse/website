@@ -122,19 +122,25 @@
   animation: fadeIn 2s ease-in-out;
 }
 
+@media (max-width: 1025px) {
+  .main__typing {
+    font-size: 2em;
+  }
+}
+
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
     padding: 2rem 5%;
   }
 
-  .main__intro,
-  .main__skills {
-    text-align: center;
+  .main__title {
+    font-size: 3.5em;
+    margin-top: 2em;
   }
 
-  .main__skills {
-    margin-top: 2rem;
+  .main__typing {
+    font-size: 1.8em;
   }
 }
 
