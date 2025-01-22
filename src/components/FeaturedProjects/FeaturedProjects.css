@@ -86,12 +86,22 @@
 
 @media (max-width: 1024px) {
   .featured-project {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .featured-project__title {
+    margin: 0.3em;
+  }
+
+  .featured-project__description {
+    margin: auto;
   }
 
   .featured-project__image {
     position: relative;
+    filter: grayscale(0%);
   }
   .featured-project__content {
     display: flex;
@@ -106,5 +116,6 @@
 
   .featured-project__technologies {
     text-align: center;
+    max-width: 60%;
   }
 }
