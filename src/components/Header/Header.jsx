@@ -4,6 +4,7 @@ import "./Header.css";
 function Header() {
   const [scrollDirection, setScrollDirection] = useState("up");
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,19 +21,45 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
+
   return (
     <header className={`header ${scrollDirection === "down" ? "hide" : ""}`}>
       <a href="#home" className="header__logo">
         Angel <span className="header__logo-last">Juarez</span>
       </a>
-      <nav className="header__nav" role="navigation">
-        <a href="#home" className="header__nav-link">
+      <button
+        className="header__hamburger"
+        aria-label="Toggle navigation"
+        onClick={toggleMenu}
+      >
+        ☰
+      </button>
+      <nav
+        className={`header__nav ${isMenuOpen ? "open" : ""}`}
+        role="navigation"
+      >
+        <a
+          href="#home"
+          className="header__nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Home
         </a>
-        <a href="#projects" className="header__nav-link">
+        <a
+          href="#projects"
+          className="header__nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Projects
         </a>
-        <a href="#contact" className="header__nav-link">
+        <a
+          href="#contact"
+          className="header__nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Contact
         </a>
       </nav>
