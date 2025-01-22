@@ -1,37 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Main.css";
 import { Typewriter } from "react-simple-typewriter";
-import {
-  GcpIcon,
-  CssIcon,
-  HtmlIcon,
-  JavascriptIcon,
-  NodejsIcon,
-  ReactIcon,
-} from "../../assets/icons/icons";
 
 function Main() {
-  {
-    /*
-  const skills = [
-    { id: 1, icon: <ReactIcon />, label: "React" },
-    { id: 2, icon: <JavascriptIcon />, label: "Javascript" },
-    { id: 3, icon: <HtmlIcon />, label: "HTML5" },
-    { id: 4, icon: <CssIcon />, label: "CSS3" },
-    { id: 5, icon: <NodejsIcon />, label: "Node.js" },
-    { id: 6, icon: <GcpIcon />, label: "GCP" },
-  ];
-  const [currentSkill, setCurrentSkill] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSkill((prev) => (prev + 1) % skills.length);
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, [skills.length]);
-*/
-  }
   return (
     <main className="main" id="home">
       <div className="main__intro">
@@ -49,7 +20,7 @@ function Main() {
               ]}
               loop={Infinity}
               cursor
-              cursorStyle="_"
+              cursorStyle="|"
               typeSpeed={70}
               deleteSpeed={20}
               delaySpeed={2000}
@@ -66,12 +37,6 @@ function Main() {
           </p>
         </section>
       </div>
-      {/*
-      <div className="main__skills">
-        <div className="main__skills-icon">{skills[currentSkill].icon}</div>
-        <p className="main__skills-label">{skills[currentSkill].label}</p>
-      </div>
-      */}
     </main>
   );
 }

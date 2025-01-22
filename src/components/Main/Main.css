@@ -100,7 +100,7 @@
 }
 
 .main__typing-gradient::after {
-  content: "_";
+  content: "|";
   color: #72e5e1;
   animation: blink 0.8s step-end infinite;
 }

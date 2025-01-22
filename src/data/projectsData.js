@@ -21,7 +21,7 @@ const projectsData = [
   {
     title: "Son Jarocho SongBook",
     description:
-      "testing text here. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog. the quick brown fox jumps over the lazy dog.",
+      "A Full-stack application that connects users to the lyrics and sounds of a folk music tradition. It renders these resources into a simple interface for users to enjoy.",
     image: "src/assets/SonJarocho.png",
     technologies: [
       "React",
