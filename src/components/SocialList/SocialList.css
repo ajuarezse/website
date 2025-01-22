@@ -41,3 +41,10 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 768px) {
+  .social-list {
+    top: 90%;
+    left: 0;
+  }
+}
