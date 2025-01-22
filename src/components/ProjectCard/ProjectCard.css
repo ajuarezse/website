@@ -54,9 +54,45 @@
 .project-card__link {
   text-decoration: none;
   color: #007bff;
-  font-weight: bold;
 }
 
 .project-card__link:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project-card {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .project-card__title {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .project-card__description {
+    font-size: 1em;
+    text-align: center;
+    color: rgb(200, 200, 200);
+  }
+
+  .project-card__technologies {
+    font-size: 0.95em;
+    text-align: center;
+  }
+
+  .project-card__links {
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .project-card__icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .project-card__link {
+    font-size: 1em;
+  }
 }
