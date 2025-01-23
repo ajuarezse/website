@@ -70,7 +70,6 @@
   animation: fadeIn 3.5s ease-in-out;
   white-space: normal;
   word-break: break-word;
-  text-align: center;
 }
 
 @keyframes fadeIn {
@@ -160,6 +159,7 @@
     align-items: center;
     text-align: center;
     padding: 2rem 5%;
+    min-height: fit-content;
   }
 
   .main__intro {
