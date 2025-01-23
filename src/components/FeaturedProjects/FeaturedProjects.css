@@ -119,3 +119,13 @@
     max-width: 60%;
   }
 }
+
+@media (max-width: 480px) {
+  .featured-project__description {
+    max-width: none;
+  }
+
+  .featured-project__image {
+    min-height: 175px;
+  }
+}
