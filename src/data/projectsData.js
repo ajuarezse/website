@@ -3,7 +3,7 @@ const projectsData = [
     title: "WTWR (What to Wear)",
     description:
       "A React-based application that helps users select suitable clothing based on real-time weather data. Users can securely sign up and sign in to access the app's features, including uploading and managing their clothing items.",
-    image: "src/assets/WTWR.png",
+    image: "./WTWR.png",
     technologies: [
       "React",
       "API Integration",
@@ -22,7 +22,7 @@ const projectsData = [
     title: "Son Jarocho SongBook",
     description:
       "A Full-stack application that connects users to the lyrics and sounds of a folk music tradition. It renders these resources into a simple interface for users to enjoy.",
-    image: "src/assets/SonJarocho.png",
+    image: "./SonJarocho.png",
     technologies: [
       "React",
       "Javascript (ES6+)",
