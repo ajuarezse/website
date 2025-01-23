@@ -145,6 +145,10 @@
   .main__typing {
     font-size: 1.8em;
   }
+
+  .main__intro {
+    padding-left: 6em;
+  }
 }
 
 @media (max-width: 390px) {
