@@ -5,8 +5,11 @@ This website, built from the ground up with React and Vite, is designed to showc
 # Key Features include:
 
 - 🧭 **Header**: Includes anchor links for quick navigation to any section. The header hides while scrolling for a distraction-free experience.
+
 - 🎥 **Main Section**: Features a dynamic typewriter effect that introduces visitors to the site author in an engaging way.
+
 - 🖼️ **Projects**: Dynamically generated from a hard-coded array of project data, with clickable featured projects and a well-organized grid for the rest.
+
 - 🔗 **Social Links**: Fixed to the side of the page for quick access, enabling visitors to connect with the author easily.
 
 # Technologies and Tools Used:
@@ -17,9 +20,13 @@ This website, built from the ground up with React and Vite, is designed to showc
 
 - 💻 **JavaScript (ES6+)**: Core language used in the project.
 
-- 🎨 **CSS**: Custom styling based on a provided Figma design.
+- 📱 **Responsive Design**: Carefully implemented to ensure the site looks great and functions seamlessly on smartphones, tablets, and desktops.
 
-- **Github**: Version control and hosting the live site.
+- 🧩 **Object-Oriented Programming (OOP)**: Leveraged to organize and structure the code for scalability, reusability, and ease of maintenance.
+
+- 🎨 **CSS**: Custom styling created from scratch to achieve a polished, modern look.
+
+- 🌐 **Github**: Version control and hosting the live site.
 
 ## Links:
 
