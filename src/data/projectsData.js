@@ -21,7 +21,7 @@ const projectsData = [
   {
     title: "Son Jarocho SongBook",
     description:
-      "A Full-stack application that connects users to the lyrics and sounds of a folk music tradition. It renders these resources into a simple interface for users to enjoy.",
+      "A Full-stack application that connects users to the lyrics and sounds of a folk music tradition. It renders these resources into a simple interface for users to view, hear and enjoy. This is an ongoing project so stay tuned for more updates and features!",
     image: "./SonJarocho.png",
     technologies: [
       "React",

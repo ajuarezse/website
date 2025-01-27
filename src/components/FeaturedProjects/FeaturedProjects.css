@@ -4,7 +4,6 @@
 }
 
 .featured-project {
-  display: flex;
   gap: 16px;
   font-family: FiraSansLight;
 }
@@ -84,7 +83,7 @@
   transform: scale(1.5);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .featured-project {
     display: flex;
     flex-direction: column-reverse;
