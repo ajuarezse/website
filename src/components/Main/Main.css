@@ -146,6 +146,10 @@
     font-size: 1.8em;
   }
 
+  .main__about {
+    text-align: left;
+  }
+
   .main__intro {
     padding-left: 6em;
   }
