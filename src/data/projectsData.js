@@ -64,7 +64,7 @@ const projectsData = [
   {
     title: "New Year Countdown",
     description:
-      "This is a simple web application that displays a countdown timer to the year 2025 . It also allows users to select a specific U.S. time zone to view the countdown in their local time.",
+      "This is a simple web application that displays a countdown timer to the year 2026 . It also allows users to select a specific U.S. time zone to view the countdown in their local time.",
     image: "",
     technologies: ["HTML5", "CSS3", "Responsive Design", "Github"],
     github: "https://github.com/ajuarezse/NewYearCountdown",

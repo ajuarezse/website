@@ -129,6 +129,10 @@
   .main__typing {
     font-size: 2em;
   }
+
+  .main__about {
+    text-align: left;
+  }
 }
 
 @media (max-width: 768px) {
