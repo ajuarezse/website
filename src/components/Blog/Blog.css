@@ -1,0 +1,27 @@
+@font-face {
+  font-family: FiraSans;
+  src: url(../../vendor/fonts/FiraSans-Regular.ttf);
+}
+
+.blog {
+  padding: 4rem 12% 4rem;
+  font-family: FiraSans;
+  color: white;
+}
+
+.blog__title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 1.5em;
+  color: rgb(178, 178, 178);
+  font-size: 2em;
+  gap: 1rem;
+}
+
+.blog__title-line {
+  display: inline-block;
+  height: 2px;
+  background-color: rgb(178, 178, 178, 60%);
+  width: 25%;
+}
