@@ -56,6 +56,13 @@ function Header() {
           Projects
         </a>
         <a
+          href="#blog"
+          className="header__nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          Blog
+        </a>
+        <a
           href="#contact"
           className="header__nav-link"
           onClick={() => setIsMenuOpen(false)}

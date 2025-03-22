@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
+import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import SocialList from "../SocialList/SociaList";
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Main />
         <Projects />
+        <Blog />
         <Contact />
         <Footer />
       </div>
