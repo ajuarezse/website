@@ -7,6 +7,7 @@
   padding: 4rem 12% 4rem;
   font-family: FiraSans;
   color: white;
+  min-height: 60vh;
 }
 
 .blog__title {
@@ -24,4 +25,9 @@
   height: 2px;
   background-color: rgb(178, 178, 178, 60%);
   width: 25%;
+}
+
+.blog__about {
+  text-align: center;
+  margin-top: 150px;
 }

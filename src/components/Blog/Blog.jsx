@@ -6,6 +6,7 @@ function Blog() {
       <h1 className="blog__title">
         <span className="blog__title-line"></span>My Writings
       </h1>
+      <p className="blog__about">Working on my blog section. Stay tuned!</p>
     </section>
   );
 }
