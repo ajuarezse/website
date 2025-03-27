@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
-import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import SocialList from "../SocialList/SociaList";
@@ -14,10 +13,19 @@ function App() {
     <div className="app">
       <div className="app__content">
         <Header />
-        <Main />
-        <Projects />
-        <Blog />
-        <Contact />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Main />
+                <Projects />
+                <Contact />
+              </>
+            }
+          />
+          <Route path="/blog" element={<p>blog</p>} />
+        </Routes>
         <Footer />
       </div>
       <SocialList />

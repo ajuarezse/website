@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -55,13 +56,13 @@ function Header() {
         >
           Projects
         </a>
-        <a
-          href="#blog"
+        <Link
+          to="/blog"
           className="header__nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
           Blog
-        </a>
+        </Link>
         <a
           href="#contact"
           className="header__nav-link"
