@@ -1,9 +1,12 @@
+import WTWRImage from "../assets/images/WTWR.png";
+import SonImage from "../assets/images/SonJarocho.png";
+
 const projectsData = [
   {
     title: "WTWR (What to Wear)",
     description:
       "A React-based application that helps users select suitable clothing based on real-time weather data. Users can securely sign up and sign in to access the app's features, including uploading and managing their clothing items.",
-    image: "./WTWR.png",
+    image: WTWRImage,
     technologies: [
       "React",
       "API Integration",
@@ -22,7 +25,7 @@ const projectsData = [
     title: "Son Jarocho SongBook",
     description:
       "A Full-stack application that connects users to the lyrics and sounds of a folk music tradition. It renders these resources into a simple interface for users to view, hear and enjoy. This is an ongoing project so stay tuned for more updates and features!",
-    image: "./SonJarocho.png",
+    image: SonImage,
     technologies: [
       "React",
       "Javascript (ES6+)",
