@@ -24,6 +24,12 @@
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
+/* Minimalist header for blog page */
+.header.blog-page {
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8); /* Slightly darker for better contrast */
+}
+
 .header.hide {
   transform: translateY(-100%);
   opacity: 0;
@@ -35,6 +41,8 @@
   text-decoration: none;
   font-family: FiraSansLight;
   transition: transform 0.5s ease;
+  position: relative; /* For potential absolute positioning */
+  z-index: 10; /* Ensure logo stays above other elements */
 }
 
 .header__logo:hover {
@@ -52,12 +60,19 @@
   gap: 12px;
 }
 
+/* Hide nav completely on blog page */
+.header.blog-page .header__nav,
+.header.blog-page .header__hamburger {
+  display: none !important;
+}
+
 .header__nav-link {
   text-decoration: none;
   color: white;
   font-size: 1em;
   font-family: FiraSansLight;
   padding: 8px 12px;
+  transition: color 0.3s ease;
 }
 
 .header__nav-link:hover {
@@ -70,6 +85,10 @@
 }
 
 @media (max-width: 768px) {
+  .header {
+    padding: 1.5rem 5%; /* Slightly reduce padding on mobile */
+  }
+
   .header__nav {
     display: none;
     flex-direction: column;
@@ -80,6 +99,8 @@
     padding: 1rem;
     border-radius: 8px;
     z-index: 10;
+    width: 60%; /* Better mobile sizing */
+    align-items: flex-end;
   }
 
   .header__nav.open {
@@ -96,5 +117,16 @@
     border: none;
     outline: none;
     z-index: 15;
+    transition: transform 0.3s ease;
+  }
+
+  .header__hamburger:hover {
+    transform: scale(1.1);
+  }
+
+  /* Center logo more prominently on blog page mobile */
+  .header.blog-page .header__logo {
+    font-size: 2.2em; /* Slightly larger on mobile */
+    margin: 0 auto; /* Perfect centering */
   }
 }
