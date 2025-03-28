@@ -46,15 +46,14 @@ function Header() {
         </button>
       )}
 
-      {/* Only show nav links when NOT on blog page */}
       {!isBlogPage && (
         <nav
           className={`header__nav ${isMenuOpen ? "open" : ""}`}
           role="navigation"
         >
-          <Link to="/" className="header__nav-link" onClick={closeMenu}>
+          <a href="#home" className="header__nav-link" onClick={closeMenu}>
             Home
-          </Link>
+          </a>
           <a href="#projects" className="header__nav-link" onClick={closeMenu}>
             Projects
           </a>
