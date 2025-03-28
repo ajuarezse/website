@@ -25,17 +25,14 @@ function Header() {
 
   const closeMenu = () => setIsMenuOpen(false);
 
-  // Check if we're on the blog page
   const isBlogPage = location.pathname === "/blog";
 
   return (
     <header className={`header ${scrollDirection === "down" ? "hide" : ""}`}>
-      {/* Always show the logo - links back home */}
       <Link to="/" className="header__logo" onClick={closeMenu}>
         Angel <span className="header__logo-last">Juarez</span>
       </Link>
 
-      {/* Only show hamburger menu when NOT on blog page */}
       {!isBlogPage && (
         <button
           className="header__hamburger"
