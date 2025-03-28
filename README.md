@@ -40,3 +40,5 @@ This is just the begining! In Stage 2, I plan to:
 
 - Add an About Section to provide more context about me.
 - Continue adding projects to the data array to keep the portfolio fresh and up-to-date.
+
+Currently working on a blog section. Stay tuned!
