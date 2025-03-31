@@ -54,7 +54,7 @@
 }
 
 .blog__card-date {
-  color: rgb(178, 178, 178);
+  color: white;
   font-size: 0.9rem;
   margin-bottom: 1rem;
   margin-top: auto;
@@ -73,7 +73,7 @@
 }
 
 .blog__tag {
-  background: rgb(178, 178, 178);
+  background: white;
   color: black;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
