@@ -20,6 +20,17 @@
   text-align: left;
 }
 
+.main__contact {
+  text-decoration: none;
+  color: rgb(178, 178, 178);
+  transition: color 0.3s ease;
+}
+
+.main__contact:hover {
+  cursor: pointer;
+  color: rgb(114, 229, 225);
+}
+
 .main__skills {
   display: flex;
   align-items: center;

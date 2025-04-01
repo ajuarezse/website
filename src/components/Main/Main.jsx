@@ -32,7 +32,10 @@ function Main() {
             interfaces that seamlessly merge thoughtful design with robust
             engineering. As a Junior Full-Stack Engineer, I thrive on solving
             complex problems and continuously expanding my skill set. Interested
-            in my work? Let's talk.
+            in my work?{" "}
+            <a href="#contact" className="main__contact">
+              Reach out!
+            </a>
           </p>
         </section>
       </div>

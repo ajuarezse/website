@@ -1,7 +1,7 @@
 const blogData = [
   {
     id: 1,
-    title: "Hello World",
+    title: "console.log(Hello World!)",
     date: "May 31, 2025",
     excerpt: "My First Blog Entry: A New Chapter",
     content: `
