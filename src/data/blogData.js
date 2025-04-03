@@ -2,7 +2,7 @@ const blogData = [
   {
     id: 1,
     title: "Hello World",
-    date: "May 31, 2025",
+    date: "April 02, 2025",
     excerpt: "My First Blog Entry: A New Chapter",
     content: `
     <p>Hello and welcome to my first blog entry! This has been a long time coming—one of those ideas that’s been bouncing around in my head, and I’ve finally made it happen. Between coding, learning new algorithms, and refining my skills, I’ve now built my own blogging platform.</p>
