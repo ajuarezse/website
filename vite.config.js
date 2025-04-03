@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import svgr from "@svgr/rollup";
 
 export default defineConfig({
-  base: "/",
+  base: "/website/",
   plugins: [
     react(),
     svgr({
@@ -14,6 +14,7 @@ export default defineConfig({
   ],
   build: {
     outDir: "docs",
+    copyPublicDir: true,
   },
   server: {
     port: 3000,
