@@ -1,6 +1,6 @@
 @font-face {
   font-family: FiraSansLight;
-  src: url(../../vendor/fonts/FiraSans-Light.ttf);
+  src: url(/fonts/FiraSans-Light.ttf);
 }
 
 .project-card {
