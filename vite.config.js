@@ -14,7 +14,14 @@ export default defineConfig({
   ],
   build: {
     outDir: "docs",
-    copyPublicDir: true,
+    emptyOutDir: true,
+    assetsDir: "assets",
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name]-[hash][extname]",
+        entryFileNames: "assets/[name]-[hash].js",
+      },
+    },
   },
   server: {
     port: 3000,
