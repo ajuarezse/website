@@ -1,11 +1,11 @@
 @font-face {
   font-family: FiraSans;
-  src: url(/website/fonts/FiraSans-Regular.ttf);
+  src: url("/website/fonts/FiraSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: FiraSansLight;
-  src: url(/website//fonts/FiraSans-Light.ttf);
+  src: url("/website/fonts/FiraSans-Light.ttf") format("truetype");
 }
 
 .header {
