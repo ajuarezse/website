@@ -6,6 +6,7 @@ export default defineConfig({
   base: "/website/",
   plugins: [
     react(),
+
     svgr({
       svgrOptions: {
         icon: true,
