@@ -19,7 +19,7 @@ const projectsData = [
     ],
     github: "https://github.com/ajuarezse/se_project_react",
     link: "https://wtwr.ftp.sh/",
-    featured: true,
+    featured: false,
   },
   {
     title: "Son Jarocho SongBook",
