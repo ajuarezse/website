@@ -26,6 +26,13 @@ function Blog() {
             className="blog__card"
             onClick={() => handlePostClick(post)}
           >
+            {post.heroImage && (
+              <img
+                src={post.heroImage}
+                alt={post.title}
+                className="blog__card-hero"
+              />
+            )}
             <h2 className="blog__card-title">{post.title}</h2>
             <p className="blog__card-date">
               {post.date} • {post.readTime}
