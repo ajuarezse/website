@@ -30,7 +30,7 @@ This website, built from the ground up with React and Vite, is designed to showc
 
 ## Links:
 
-- Visit the Live Site here: [ajuarezse.dev](https://ajuarezse.dev)
+- Visit the Live Site here: [ajuarez.dev](https://ajuarez.dev)
 
 ---
 
