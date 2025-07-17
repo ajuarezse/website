@@ -16,10 +16,11 @@ const projectsData = [
       "Certbot",
       "Winston",
       "Jest",
+      "Vercel",
     ],
     github: "https://github.com/ajuarezse/se_project_react",
-    link: "https://wtwr.ftp.sh/",
-    featured: false,
+    link: "https://wtwr.angeljuarez.dev",
+    featured: true,
   },
   {
     title: "Son Jarocho SongBook",
@@ -35,7 +36,7 @@ const projectsData = [
     ],
     github: "https://github.com/ajuarezse/tripleTenFinalProject_React",
     link: "https://ajuarezse.github.io/tripleTenFinalProject_React/",
-    featured: true,
+    featured: false,
   },
   {
     title: "Around the US",
