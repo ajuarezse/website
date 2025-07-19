@@ -1,26 +1,58 @@
 const blogData = [
   {
-    id: 1,
-    title: "Hello World",
-    date: "April 11, 2025",
-    excerpt: "My First Blog Entry: A New Chapter",
+    id: 3,
+    title:
+      'From Cloud to Custom Domain: Engineering a Resilient Deployment for "What to Wear"',
+    date: "July 21, 2025",
+    excerpt:
+      "A journey through cloud deployment challenges and engineering solutions for a full-stack application",
+    heroImage: "/images/blog/post-3/WTWR.png",
     content: `
-    <p>Hello and welcome to my first blog entry! This has been a long time coming—one of those ideas that’s been bouncing around in my head, and I’ve finally made it happen. Between coding, learning new algorithms, and refining my skills, I’ve now built my own blogging platform.</p>
+    <p>Bringing a full-stack application to life online is a thrilling endeavor, a complex orchestration of code, infrastructure, and configuration. The true test of a developer, however, often lies in navigating the unforeseen challenges that arise post-deployment, particularly when initial solutions hit unexpected roadblocks.</p>
 
-<p>Writing has always been a personal exercise for me, a way to reflect and document my journey. I’ve kept journals to help untangle the mess of ideas constantly running through my mind. Seeing my thoughts laid out in words helps me organize them, make sense of them. It gives me the opportunity to, in a way, slow down and process the influx of information and events I experience.</p>
+<p>This was precisely the journey I embarked on with "What to Wear" (WTWR), a React-based application I developed during my time at the TripleTen Software Developer program. WTWR is designed to streamline daily dressing decisions by integrating real-time weather data with a user's uploaded clothing collection. Users can securely sign up, sign in, and manage their garments, while the application dynamically filters and suggests appropriate attire based on current conditions. It's a practical application of front-end responsiveness and robust back-end logic.</p>
 
-<p>At one point, I actually thought writing would be my career. I studied journalism and spent years contributing to school newspapers, from middle school through college. I loved the whole process—getting assignments, researching, conducting interviews, and eventually seeing my byline in print. That experience showed me the power of publishing, how writing can connect with people.</p>
+<h3>Initial Deployment: Leveraging Google Cloud and Facing the Free Tier Frontier</h3>
 
-<p>Fast forward to today, and I’m carving out a different path in tech. After completing a software engineering bootcamp, I built this portfolio site to showcase my work. And now, I’ve added a blog. The journalist in me is excited about this—an opportunity to sharpen my writing skills and share my journey.</p>
+<p>My initial deployment of WTWR leveraged Google Cloud Platform (GCP). This provided invaluable hands-on experience with cloud infrastructure, demonstrating how to deploy a comprehensive application, manage resources, and ensure it was live and accessible. It was an excellent introduction to the power and scalability of cloud services.</p>
 
-<p>I have to admit, after spending so much time writing code, it feels a little weird to type “normally” again. But there’s something refreshing about expressing myself beyond syntax and functions. In a way, it brings me closer to what I believe technology should be about—connecting people.</p>
+<p>However, a common hurdle soon emerged: the expiration of the free trial. With the trial's end, the services hosting WTWR were suspended, effectively taking the application offline. This presented a clear technical challenge: how to re-establish the application's online presence, ensuring its availability and functionality, without relying on cost-prohibitive proprietary solutions.</p>
 
-<p>So, here I am, coding, building, and putting myself out there. If you’re reading this, thanks for being part of the journey. This first post is mostly a test run—making sure everything works and getting back into the rhythm of writing. But there’s more to come. Stay tuned!</p>
+<h3>Engineering a Sustainable Solution: Vercel, MongoDB Atlas, and a Custom Domain</h3>
+
+<p>My objective was to find a robust, cost-effective, and independent hosting solution that would provide long-term stability for WTWR. This led me to a deep dive into alternative deployment strategies, ultimately converging on a powerful and flexible new architecture.</p>
+
+<p>I strategically chose Vercel to host both the React front-end and the Express.js back-end. Vercel's intuitive platform and generous free tier made it an ideal candidate for continuous integration and deployment. For the database, I opted for MongoDB Atlas, a cloud-based NoSQL database service, which offered a scalable and secure solution that integrated seamlessly with my back-end.</p>
+
+<p>The migration process involved several key engineering steps:</p>
+
+<ul>
+  <li>API Reconfiguration: Adapting the front-end to communicate with the newly deployed back-end on Vercel.</li>
+  <li>Database Migration & Integration: Setting up the MongoDB Atlas cluster and ensuring the back-end correctly connected and interacted with the database.</li>
+  <li>Environment Variable Management: Securely handling API keys and sensitive information across the new hosting environments.</li>
+  <li>Custom Domain Integration: Configuring a custom subdomain through my portfolio website, ensuring a professional and memorable URL for the application.</li>
+</ul>
+
+<h3>A Commitment to Problem-Solving and Technical Excellence</h3>
+
+<p>Successfully migrating and re-deploying "What to Wear" wasn't just about changing platforms; it was a comprehensive exercise in problem identification, strategic planning, and meticulous execution. It showcased my ability to adapt to new technical landscapes, optimize for performance and cost, and implement best practices for security and maintainability.</p>
+
+<p>I thrive on these kinds of technical challenges—analyzing a problem, researching effective solutions, and meticulously implementing them to achieve a resilient and functional outcome. If you're tackling a complex software project or need an experienced hand in navigating deployment and infrastructure challenges, I'm eager to connect and contribute. Let's build robust and reliable solutions, together.</p>
+
+<p>Ready to collaborate on your next technical challenge? Reach out to me at <a href="mailto:ajuarez.se@gmail.com">ajuarez.se@gmail.com</a>.</p>
 
 <p>Angel Juarez</p>
- `,
-    tags: ["coding journey", "developer blog", "personal growth", "test run"],
-    readTime: "2 min read",
+`,
+    tags: [
+      "cloud deployment",
+      "full-stack",
+      "React",
+      "MongoDB",
+      "Vercel",
+      "technical solution",
+      "problem-solving",
+    ],
+    readTime: "4 min read",
   },
   {
     id: 2,
@@ -54,6 +86,29 @@ const blogData = [
 `,
     tags: ["hackerspace", "community", "3D printing", "learning", "networking"],
     readTime: "3 min read",
+  },
+  {
+    id: 1,
+    title: "Hello World",
+    date: "April 11, 2025",
+    excerpt: "My First Blog Entry: A New Chapter",
+    content: `
+    <p>Hello and welcome to my first blog entry! This has been a long time coming—one of those ideas that’s been bouncing around in my head, and I’ve finally made it happen. Between coding, learning new algorithms, and refining my skills, I’ve now built my own blogging platform.</p>
+
+<p>Writing has always been a personal exercise for me, a way to reflect and document my journey. I’ve kept journals to help untangle the mess of ideas constantly running through my mind. Seeing my thoughts laid out in words helps me organize them, make sense of them. It gives me the opportunity to, in a way, slow down and process the influx of information and events I experience.</p>
+
+<p>At one point, I actually thought writing would be my career. I studied journalism and spent years contributing to school newspapers, from middle school through college. I loved the whole process—getting assignments, researching, conducting interviews, and eventually seeing my byline in print. That experience showed me the power of publishing, how writing can connect with people.</p>
+
+<p>Fast forward to today, and I’m carving out a different path in tech. After completing a software engineering bootcamp, I built this portfolio site to showcase my work. And now, I’ve added a blog. The journalist in me is excited about this—an opportunity to sharpen my writing skills and share my journey.</p>
+
+<p>I have to admit, after spending so much time writing code, it feels a little weird to type “normally” again. But there’s something refreshing about expressing myself beyond syntax and functions. In a way, it brings me closer to what I believe technology should be about—connecting people.</p>
+
+<p>So, here I am, coding, building, and putting myself out there. If you’re reading this, thanks for being part of the journey. This first post is mostly a test run—making sure everything works and getting back into the rhythm of writing. But there’s more to come. Stay tuned!</p>
+
+<p>Angel Juarez</p>
+ `,
+    tags: ["coding journey", "developer blog", "personal growth", "test run"],
+    readTime: "2 min read",
   },
 ];
 

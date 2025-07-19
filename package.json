@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run build && cp CNAME docs/",
-    "deploy": "gh-pages -d docs"
+    "predeploy": "npm run build",
+    "deploy": "git add docs/ && git commit -m \"Deploy website\" && git push origin main"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
