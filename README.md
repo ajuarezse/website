@@ -11,6 +11,8 @@ This website, built from the ground up with React and Vite, is designed to showc
 - 🖼️ **Projects**: Dynamically generated from a hard-coded array of project data, with clickable featured projects and a well-organized grid for the rest.
 
 - 🔗 **Social Links**: Fixed to the side of the page for quick access, enabling visitors to connect with the author easily.
+  
+-  📓 **Blog Section**: The latest addition to my site allowing me to share my experiences!
 
 # Technologies and Tools Used:
 
@@ -40,5 +42,3 @@ This is just the begining! In Stage 2, I plan to:
 
 - Add an About Section to provide more context about me.
 - Continue adding projects to the data array to keep the portfolio fresh and up-to-date.
-
-Currently working on a blog section. Stay tuned!
