@@ -1,9 +1,10 @@
 const blogData = [
+  /* Draft: Unpublished blog post
   {
     id: 3,
     title:
       'From Cloud to Custom Domain: Engineering a Resilient Deployment for "What to Wear"',
-    date: "July 21, 2025",
+    date: "July 22, 2025",
     excerpt:
       "A journey through cloud deployment challenges and engineering solutions for a full-stack application",
     heroImage: "/images/blog/post-3/WTWR.png",
@@ -54,6 +55,7 @@ const blogData = [
     ],
     readTime: "4 min read",
   },
+  */
   {
     id: 2,
     title: "The Unexpected Z-Axis",
