@@ -1,54 +1,5 @@
 const blogData = [
   {
-    id: 3,
-    title: "Innovation and Connections: TECHSPO San Francisco 2025",
-    date: "July 23, 2025",
-    excerpt:
-      "Exploring emerging technologies and meaningful connections at TECHSPO San Francisco",
-    heroImage: "/images/blog/post-3/MeTechspo.webp",
-    content: `
-    <p>This week, I attended TECHSPO San Francisco 2025, held at the Grand Hyatt at SFO — a two-day conference where developers, marketers, and tech innovators come together to showcase emerging technologies in AdTech, MarTech, SaaS, mobile, and beyond.</p>
-
-<p>While I opted for the free pass this time around, I still walked away with meaningful conversations, fresh insights, and a deeper appreciation for how tech and creativity intersect. I'm always looking for ways to stay sharp, expand my network, and get exposure to the kinds of tools and ideas shaping our industry.</p>
-
-<img src="/images/blog/post-3/LanyardTechspo.webp" alt="In front of the Hyatt SFO sign with my TECHSPO lanyard" class="blog-image" />
-
-<p>I took the BART train all the way to SFO and rode the connecting tram over to the Hyatt where the event was being held. The moment I checked in and received a personalized lanyard, it all started to feel very real. The staff were welcoming, and even from the lobby, I could sense the energy of innovation buzzing around. The expo floor had a small but focused group of exhibitors, and I made it a point to engage with every booth I could.</p>
-
-<p>Throughout the day, I had several memorable conversations that shaped my experience. I spoke with the team at Northbeam, a marketing analytics company that helps businesses understand where their traffic is actually coming from. In a world of fragmented user journeys and data overload, tools like this feel essential — and it was exciting to learn how they visualize and present that information for better decision-making.</p>
-
-<p>Next, I connected with folks from Youvico, a video editing platform built for teams. They gave me a quick demo of their interface and walked me through features designed for remote collaboration. The live editing and review tools caught my eye — a reminder that tech isn't just about code; it's also about creativity and communication.</p>
-
-<p>One of the more unexpected moments of the day came from meeting two young developers visiting from South Korea. They weren't exhibitors, but they eagerly showed me a video of a robot they're building. It looked incredibly advanced, and they were genuinely curious to hear my feedback. I really appreciated their enthusiasm and openness. It was a reminder of how innovation and curiosity can cross language and cultural barriers — even in the middle of a hotel lobby.</p>
-
-<h3>Insights & Inspiration</h3>
-
-<img src="/images/blog/post-3/PresentationTechspo.webp" alt="The main stage at TECHSPO San Francisco 2025" class="blog-image" />
-
-<p>In between conversations, I sat in on several panel discussions and speaker sessions. Topics ranged from tech marketing to the future of AI and automation. But one message really stood out — and stuck with me:</p>
-
-<blockquote>One speaker emphasized how important it is to stand out in a world filled with AI-generated content. Her point was clear: if we want to be noticed, we need to lead with creativity, originality, and a human touch.</blockquote>
-
-<p>That insight came from Sarah Fruy, a seasoned marketing executive based in Oakland. Her talk really resonated with me, and I was lucky enough to speak with her one-on-one shortly after. She was incredibly generous with her time and insights. That conversation left me even more motivated to lean into what makes me me — not just as a developer, but as a communicator, problem-solver, and lifelong learner.</p>
-
-<p>Would I have loved to see more booths? Sure. More startups showing off cool tech? Absolutely. But overall, TECHSPO SF 2025 was a great reminder of the value of showing up — staying curious, making real connections, and keeping your skills sharp.</p>
-
-<p>If you're building something interesting or just want to swap notes on tech, creativity, or robot demos, I'd love to connect at <a href="mailto:ajuarez.se@gmail.com">ajuarez.se@gmail.com</a>.</p>
-
-<p>Angel Juarez</p>
-`,
-    tags: [
-      "tech conference",
-      "networking",
-      "professional development",
-      "TECHSPO",
-      "San Francisco",
-      "tech events",
-    ],
-    readTime: "5 min read",
-  },
-  /* Draft: Unpublished blog post
-  {
     id: 4,
     title:
       'From Cloud to Custom Domain: Engineering a Resilient Deployment for "What to Wear"',
@@ -103,7 +54,54 @@ const blogData = [
     ],
     readTime: "4 min read",
   },
-  */
+  {
+    id: 3,
+    title: "Innovation and Connections: TECHSPO San Francisco 2025",
+    date: "July 23, 2025",
+    excerpt:
+      "Exploring emerging technologies and meaningful connections at TECHSPO San Francisco",
+    heroImage: "/images/blog/post-3/MeTechspo.webp",
+    content: `
+    <p>This week, I attended TECHSPO San Francisco 2025, held at the Grand Hyatt at SFO — a two-day conference where developers, marketers, and tech innovators come together to showcase emerging technologies in AdTech, MarTech, SaaS, mobile, and beyond.</p>
+
+<p>While I opted for the free pass this time around, I still walked away with meaningful conversations, fresh insights, and a deeper appreciation for how tech and creativity intersect. I'm always looking for ways to stay sharp, expand my network, and get exposure to the kinds of tools and ideas shaping our industry.</p>
+
+<img src="/images/blog/post-3/LanyardTechspo.webp" alt="In front of the Hyatt SFO sign with my TECHSPO lanyard" class="blog-image" />
+
+<p>I took the BART train all the way to SFO and rode the connecting tram over to the Hyatt where the event was being held. The moment I checked in and received a personalized lanyard, it all started to feel very real. The staff were welcoming, and even from the lobby, I could sense the energy of innovation buzzing around. The expo floor had a small but focused group of exhibitors, and I made it a point to engage with every booth I could.</p>
+
+<p>Throughout the day, I had several memorable conversations that shaped my experience. I spoke with the team at Northbeam, a marketing analytics company that helps businesses understand where their traffic is actually coming from. In a world of fragmented user journeys and data overload, tools like this feel essential — and it was exciting to learn how they visualize and present that information for better decision-making.</p>
+
+<p>Next, I connected with folks from Youvico, a video editing platform built for teams. They gave me a quick demo of their interface and walked me through features designed for remote collaboration. The live editing and review tools caught my eye — a reminder that tech isn't just about code; it's also about creativity and communication.</p>
+
+<p>One of the more unexpected moments of the day came from meeting two young developers visiting from South Korea. They weren't exhibitors, but they eagerly showed me a video of a robot they're building. It looked incredibly advanced, and they were genuinely curious to hear my feedback. I really appreciated their enthusiasm and openness. It was a reminder of how innovation and curiosity can cross language and cultural barriers — even in the middle of a hotel lobby.</p>
+
+<h3>Insights & Inspiration</h3>
+
+<img src="/images/blog/post-3/PresentationTechspo.webp" alt="The main stage at TECHSPO San Francisco 2025" class="blog-image" />
+
+<p>In between conversations, I sat in on several panel discussions and speaker sessions. Topics ranged from tech marketing to the future of AI and automation. But one message really stood out — and stuck with me:</p>
+
+<blockquote>One speaker emphasized how important it is to stand out in a world filled with AI-generated content. Her point was clear: if we want to be noticed, we need to lead with creativity, originality, and a human touch.</blockquote>
+
+<p>That insight came from Sarah Fruy, a seasoned marketing executive based in Oakland. Her talk really resonated with me, and I was lucky enough to speak with her one-on-one shortly after. She was incredibly generous with her time and insights. That conversation left me even more motivated to lean into what makes me me — not just as a developer, but as a communicator, problem-solver, and lifelong learner.</p>
+
+<p>Would I have loved to see more booths? Sure. More startups showing off cool tech? Absolutely. But overall, TECHSPO SF 2025 was a great reminder of the value of showing up — staying curious, making real connections, and keeping your skills sharp.</p>
+
+<p>If you're building something interesting or just want to swap notes on tech, creativity, or robot demos, I'd love to connect at <a href="mailto:ajuarez.se@gmail.com">ajuarez.se@gmail.com</a>.</p>
+
+<p>Angel Juarez</p>
+`,
+    tags: [
+      "tech conference",
+      "networking",
+      "professional development",
+      "TECHSPO",
+      "San Francisco",
+      "tech events",
+    ],
+    readTime: "5 min read",
+  },
   {
     id: 2,
     title: "The Unexpected Z-Axis",
