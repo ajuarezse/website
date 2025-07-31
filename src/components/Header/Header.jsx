@@ -33,7 +33,16 @@ function Header() {
         Angel <span className="header__logo-last">Juarez</span>
       </Link>
 
-      {!isBlogPage && (
+      {isBlogPage ? (
+        <Link
+          to="/"
+          className="header__back"
+          onClick={closeMenu}
+          aria-label="Back to home"
+        >
+          ←
+        </Link>
+      ) : (
         <button
           className="header__hamburger"
           aria-label="Toggle navigation"
