@@ -13,7 +13,11 @@
   min-height: 60vh;
   font-family: FiraSans;
   text-align: center;
-  background-color: #101820; /* Optional: A subtle background */
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 -8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 .contact__header {
