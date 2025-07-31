@@ -48,18 +48,54 @@ function Header() {
           className={`header__nav ${isMenuOpen ? "open" : ""}`}
           role="navigation"
         >
-          <a href="#home" className="header__nav-link" onClick={closeMenu}>
+          <Link
+            to="/"
+            className="header__nav-link"
+            onClick={(e) => {
+              closeMenu();
+              if (location.pathname === "/") {
+                e.preventDefault();
+                document
+                  .getElementById("home")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             Home
-          </a>
-          <a href="#projects" className="header__nav-link" onClick={closeMenu}>
+          </Link>
+          <Link
+            to="/"
+            className="header__nav-link"
+            onClick={(e) => {
+              closeMenu();
+              if (location.pathname === "/") {
+                e.preventDefault();
+                document
+                  .getElementById("projects")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             Projects
-          </a>
+          </Link>
           <Link to="/blog" className="header__nav-link" onClick={closeMenu}>
             Blog
           </Link>
-          <a href="#contact" className="header__nav-link" onClick={closeMenu}>
+          <Link
+            to="/"
+            className="header__nav-link"
+            onClick={(e) => {
+              closeMenu();
+              if (location.pathname === "/") {
+                e.preventDefault();
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
             Contact
-          </a>
+          </Link>
         </nav>
       )}
     </header>
