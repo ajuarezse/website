@@ -11,6 +11,17 @@
   padding: 4rem 7%;
 }
 
+@keyframes titleEntrance {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .blog__title {
   display: flex;
   align-items: center;
@@ -19,6 +30,8 @@
   color: rgb(178, 178, 178);
   font-size: 2em;
   gap: 1rem;
+  opacity: 0;
+  animation: titleEntrance 0.6s ease-out forwards;
 }
 
 .blog__grid {
@@ -26,6 +39,19 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
+}
+
+@keyframes cardEntrance {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(20px);
+    filter: blur(5px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+  }
 }
 
 .blog__card {
@@ -42,6 +68,8 @@
   gap: 8px;
   transition: all 0.3s ease-in-out;
   font-family: FiraSansLight;
+  opacity: 0;
+  animation: cardEntrance 0.8s ease-out forwards;
 }
 
 .blog__card:hover {
@@ -95,6 +123,28 @@
 }
 
 /* Modal Styles */
+@keyframes modalOverlayEntrance {
+  from {
+    opacity: 0;
+    backdrop-filter: blur(0);
+  }
+  to {
+    opacity: 1;
+    backdrop-filter: blur(5px);
+  }
+}
+
+@keyframes modalEntrance {
+  from {
+    opacity: 0;
+    transform: scale(0.98) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
 .blog__modal-overlay {
   position: fixed;
   top: 0;
@@ -109,6 +159,7 @@
   justify-content: center;
   z-index: 1000;
   padding: 2rem;
+  animation: modalOverlayEntrance 0.3s ease-out forwards;
 }
 
 .blog__modal {
@@ -125,6 +176,7 @@
   position: relative;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
   color: white;
+  animation: modalEntrance 0.4s ease-out forwards;
 }
 
 .blog__modal-close {
