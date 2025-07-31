@@ -17,7 +17,7 @@ function Blog() {
 
   return (
     <section className="blog" id="blog">
-      <h1 className="blog__title">my writings</h1>
+      <h1 className="blog__title">my writings...</h1>
 
       <div className="blog__grid">
         {blogData.map((post) => (
