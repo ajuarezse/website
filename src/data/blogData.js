@@ -1,5 +1,37 @@
 const blogData = [
   {
+    id: 5,
+    title: "Decoding the Future: My Morning at the Bay Area AI War Room",
+    date: "August 26, 2025",
+    excerpt:
+      "A firsthand look at the Bay Area AI War Room meetup—where developers, legal minds, artists, and entrepreneurs gather to discuss the latest in AI models, ethics, and innovation.",
+    heroImage: "/images/blog/post-5/BayAreaAiWarRoom.png",
+    content: `
+    <p>This past Saturday, I decided to dive headfirst into the buzzing world of AI by attending the Bay Area AI War Room – SF Edition. As someone always keen to stay updated on the latest in tech, especially in the rapidly evolving AI landscape, this meetup felt like a perfect fit. And what better way to spend a Saturday morning than with coffee, conversation, and cutting-edge ideas at JOE & THE JUICE on Market St in San Francisco?</p>
+
+    <p>I rolled in right around 10:00 AM, ready to soak it all in. The venue was lively, with the aroma of fresh juice and coffee mingling with the low hum of excited chatter. Finding the group was easy – true to the description, they were gathered at the tables in the back, a clear sign that serious discussions were already underway.</p>
+
+    <p>The vibe was exactly what I’d hoped for: dynamic, engaging, and brimming with curiosity. The meetup's agenda covers everything from models and agents to the ethics and law surrounding AI, not to mention its business and artistic implications. After the recent "DeepSeek hoopla" (a topic I was particularly interested in), the focus for this session was clearly shifting towards reasoning models – a fascinating and critical area as AI systems become more sophisticated.</p>
+
+    <p>I quickly found myself drawn into a conversation about the practical applications of current AI models. One person was showcasing a project involving an AI agent designed to optimize logistics, while another shared insights into the challenges of ethical AI development in a startup environment. It was inspiring to see people not just discussing theoretical concepts but also actively building and iterating.</p>
+
+    <p>One of the most striking aspects was the breadth of expertise in the room. There were developers, sure, but also legal professionals pondering AI’s regulatory future, artists exploring AI-generated content, and entrepreneurs discussing the next big AI venture. It truly felt like a "war room" – a strategic gathering of minds tackling the multifaceted challenges and opportunities presented by artificial intelligence.</p>
+
+    <p>I even had a chance to share some of my own thoughts on the balance between innovation and responsible AI development, drawing from my experiences and the insights I’ve gained from other tech events. It’s always rewarding to contribute to such a vibrant dialogue.</p>
+
+    <p>As the two hours flew by, I left feeling energized and incredibly informed. These meetups are invaluable for anyone looking to stay sharp and expand their network. It's not just about what you learn, but the connections you make and the diverse perspectives you encounter. If you're in the Bay Area and passionate about AI, I highly recommend checking out the Bay Area AI War Room next month. Who knows what future innovations we'll be discussing then?</p>
+    `,
+    tags: [
+      "AI meetup",
+      "Bay Area",
+      "AI War Room",
+      "networking",
+      "tech events",
+      "artificial intelligence",
+    ],
+    readTime: "4 min read",
+  },
+  {
     id: 4,
     title:
       'From Cloud to Custom Domain: Engineering a Resilient Deployment for "What to Wear"',
