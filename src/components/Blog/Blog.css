@@ -122,7 +122,6 @@
   border-color: rgba(114, 229, 225, 0.5);
 }
 
-/* Modal Styles */
 @keyframes modalOverlayEntrance {
   from {
     opacity: 0;
@@ -246,7 +245,6 @@
   margin-bottom: 1rem;
 }
 
-/* Link styles */
 .blog__modal-content a {
   color: rgb(114, 229, 225);
   text-decoration: none;
