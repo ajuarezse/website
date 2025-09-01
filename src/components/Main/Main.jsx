@@ -38,6 +38,28 @@ function Main() {
             </a>
           </p>
         </section>
+        <div className="main__skills-grid main__skills-icons-only">
+          <img
+            src="/src/assets/icons/javascript-16-svgrepo-com.svg"
+            alt="JavaScript"
+            title="JavaScript"
+          />
+          <img
+            src="/src/assets/icons/react.svg"
+            alt="React.js"
+            title="React.js"
+          />
+          <img
+            src="/src/assets/icons/github-svgrepo-com.svg"
+            alt="Git"
+            title="Git"
+          />
+          <img
+            src="/src/assets/icons/html-fill-svgrepo-com.svg"
+            alt="HTML5"
+            title="HTML5"
+          />
+        </div>
       </div>
     </main>
   );
