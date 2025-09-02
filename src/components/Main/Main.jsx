@@ -1,5 +1,9 @@
 import "./Main.css";
 import { Typewriter } from "react-simple-typewriter";
+import jsIcon from "../../assets/icons/javascript-16-svgrepo-com.svg";
+import reactIcon from "../../assets/icons/react.svg";
+import gitIcon from "../../assets/icons/github-svgrepo-com.svg";
+import htmlIcon from "../../assets/icons/html-fill-svgrepo-com.svg";
 
 function Main() {
   return (
@@ -39,26 +43,10 @@ function Main() {
           </p>
         </section>
         <div className="main__skills-grid main__skills-icons-only">
-          <img
-            src="/src/assets/icons/javascript-16-svgrepo-com.svg"
-            alt="JavaScript"
-            title="JavaScript"
-          />
-          <img
-            src="/src/assets/icons/react.svg"
-            alt="React.js"
-            title="React.js"
-          />
-          <img
-            src="/src/assets/icons/github-svgrepo-com.svg"
-            alt="Git"
-            title="Git"
-          />
-          <img
-            src="/src/assets/icons/html-fill-svgrepo-com.svg"
-            alt="HTML5"
-            title="HTML5"
-          />
+          <img src={jsIcon} alt="JavaScript" title="JavaScript" />
+          <img src={reactIcon} alt="React.js" title="React.js" />
+          <img src={gitIcon} alt="Git" title="Git" />
+          <img src={htmlIcon} alt="HTML5" title="HTML5" />
         </div>
       </div>
     </main>
