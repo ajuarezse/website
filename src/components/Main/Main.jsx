@@ -4,7 +4,7 @@ import jsIcon from "../../assets/icons/javascript-16-svgrepo-com.svg";
 import tsIcon from "../../assets/icons/typescript-16-svgrepo-com.svg";
 import reactIcon from "../../assets/icons/react.svg";
 import nodeIcon from "../../assets/icons/node-svgrepo-com.svg";
-import gitIcon from "../../assets/icons/github-svgrepo-com.svg";
+import gitIcon from "../../assets/icons/git-svgrepo-com.svg";
 import htmlIcon from "../../assets/icons/html-fill-svgrepo-com.svg";
 import cssIcon from "../../assets/icons/css3-01-svgrepo-com (1).svg";
 import tailwindIcon from "../../assets/icons/tailwind-svgrepo-com.svg";
