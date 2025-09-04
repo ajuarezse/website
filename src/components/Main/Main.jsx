@@ -45,7 +45,16 @@ function Main() {
             engineering. As a Junior Full-Stack Engineer, I thrive on solving
             complex problems and continuously expanding my skill set. Interested
             in my work?{" "}
-            <a href="#contact" className="main__contact">
+            <a
+              href="#contact"
+              className="main__contact"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById("contact")
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               Reach out!
             </a>
           </p>
