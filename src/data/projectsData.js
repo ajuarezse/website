@@ -1,5 +1,6 @@
 import WTWRImage from "../assets/images/WTWR.png";
 import SonImage from "../assets/images/SonJarocho.png";
+import AroundImage from "../assets/images/AroundTheUS.jpg";
 
 const projectsData = [
   {
@@ -42,7 +43,7 @@ const projectsData = [
     title: "Around the US",
     description:
       "The Around the U.S., Project is a social web platform where users can document and share their journeys around the world.",
-    image: "",
+    image: AroundImage,
     technologies: [
       "Javascript (ES6+)",
       "HTML5",
@@ -53,7 +54,7 @@ const projectsData = [
     ],
     github: "https://github.com/ajuarezse/se_project_aroundtheus",
     link: "https://ajuarezse.github.io/se_project_aroundtheus/",
-    featured: false,
+    featured: true,
   },
   {
     title: "Triple Peaks Library Page",
