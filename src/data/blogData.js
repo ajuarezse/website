@@ -1,11 +1,10 @@
 const blogData = [
   {
     id: 6,
-    title:
-      "Discovering Noisebridge: A Hacker Space Full of Energy and Opportunity",
+    title: "Noisebridge: A Hacker Space Full of Energy and Opportunity",
     date: "September 29, 2025",
     excerpt:
-      "Last Thursday, I may have found my new favorite hacker space. Join me as I explore Noisebridge in San Francisco's Mission District and discover a vibrant community of makers, coders, and creators.",
+      "Exploring San Francisco's most unconventional hacker space and discovering a vibrant community of makers, artists, and developers pushing the boundaries of creativity and technology.",
     heroImage: "/images/blog/post-6/noisebridge-hero.png",
     content: `
     <p>Last Thursday, I may have found my new favorite hacker space. I attended a meetup hosted by Resident Electronic at Noisebridge, tucked away in the Mission District of San Francisco.</p>
@@ -43,6 +42,10 @@ const blogData = [
     <p>I'm excited to return, dive into the Python classes, and contribute to this community. The night reminded me why I got into software development in the first place: the thrill of building, learning, and connecting with others who share the same passion.</p>
 
     <p>If you're reading this as a fellow technologist, a collaborator, or even a potential employer, know this: I'm always eager to learn, contribute, and take ownership of meaningful projects. If you're looking for a developer with full-stack skills, a drive to keep growing, and a genuine enthusiasm for building things that actually ship—I'd love to connect.</p>
+
+    <p>Ready to collaborate on your next technical challenge? Reach out to me at <a href="mailto:ajuarez.se@gmail.com">ajuarez.se@gmail.com</a>.</p>
+
+    <p>Angel Juarez</p>
     `,
     tags: [
       "hackerspace",
