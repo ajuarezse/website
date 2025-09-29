@@ -17,7 +17,7 @@ const blogData = [
 
     <p>Stepping through the gate, it was immediately clear that this was not a carefully polished, consumer-friendly venue. The outdoor patio was filled with half-finished projects, loose hardware, and a buzz of conversation among people who clearly knew each other well. To me, it felt like discovering a creative ecosystem in its rawest form: engineers, tinkerers, artists, and hackers building things for the love of it.</p>
 
-    <img src="/images/blog/post-6/OutdoorPatio.jpg" alt="The outdoor patio at Noisebridge." class="blog-image" />
+    <img src="/images/blog/post-6/OutdoorPatio.jpg" alt="The author in the outdoor patio at Noisebridge." class="blog-image" />
 
     <p>As I made my way into the warehouse-like indoor space, I felt transported into another world. The lights on the main floor were low, giving the stage to electronic musicians and visual artists. The man who first let us in was now behind a table crowded with consoles, knobs, and switches, manipulating soundscapes that filled the room.</p>
 
@@ -29,7 +29,7 @@ const blogData = [
 
     <p>This floor was lined with makeshift workspaces, bookshelves stacked with computer science literature, and community areas for collaboration (or just grabbing a cup of coffee). Among the surprises were dedicated spaces for both music creation and crochet, an eclectic mix that reflects the community's openness to all kinds of making.</p>
 
-    <img src="/images/blog/post-6/WorkStation.jpg" alt="Makeshift workspaces and computer equipment on the second floor" class="blog-image" />
+    <img src="/images/blog/post-6/WorkStation.jpg" alt="The author at a workstation on the second floor" class="blog-image" />
 
     <p>One room especially caught my attention. Dimly lit, it held about seven people deeply focused on their laptops. Their concentration made me hesitant to interrupt, but it was obvious that serious projects were underway. It made me wonder about the many layers of creativity happening within those walls at any given time.</p>
 
