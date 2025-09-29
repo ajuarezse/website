@@ -5,7 +5,7 @@ const blogData = [
     date: "September 29, 2025",
     excerpt:
       "Exploring San Francisco's most unconventional hacker space and discovering a vibrant community of makers, artists, and developers pushing the boundaries of creativity and technology.",
-    heroImage: "/images/blog/post-6/noisebridge-hero.png",
+    heroImage: "/images/blog/post-6/ResidentElectric.jpg",
     content: `
     <p>Last Thursday, I may have found my new favorite hacker space. I attended a meetup hosted by Resident Electronic at Noisebridge, tucked away in the Mission District of San Francisco.</p>
 
@@ -17,6 +17,8 @@ const blogData = [
 
     <p>Stepping through the gate, it was immediately clear that this was not a carefully polished, consumer-friendly venue. The outdoor patio was filled with half-finished projects, loose hardware, and a buzz of conversation among people who clearly knew each other well. To me, it felt like discovering a creative ecosystem in its rawest form: engineers, tinkerers, artists, and hackers building things for the love of it.</p>
 
+    <img src="/images/blog/post-6/OutdoorPatio.jpg" alt="The outdoor patio at Noisebridge." class="blog-image" />
+
     <p>As I made my way into the warehouse-like indoor space, I felt transported into another world. The lights on the main floor were low, giving the stage to electronic musicians and visual artists. The man who first let us in was now behind a table crowded with consoles, knobs, and switches, manipulating soundscapes that filled the room.</p>
 
     <p>Other artists, including Blu and Alon Onymous, took the stage as well, blending digital visuals with pulsing beats. The atmosphere was electric, and it was easy to get swept up in the sense of experimentation and creative freedom. And yet, I soon learned this was only the beginning of what Noisebridge had to offer.</p>
@@ -27,11 +29,15 @@ const blogData = [
 
     <p>This floor was lined with makeshift workspaces, bookshelves stacked with computer science literature, and community areas for collaboration (or just grabbing a cup of coffee). Among the surprises were dedicated spaces for both music creation and crochet, an eclectic mix that reflects the community's openness to all kinds of making.</p>
 
+    <img src="/images/blog/post-6/WorkStation.jpg" alt="Makeshift workspaces and computer equipment on the second floor" class="blog-image" />
+
     <p>One room especially caught my attention. Dimly lit, it held about seven people deeply focused on their laptops. Their concentration made me hesitant to interrupt, but it was obvious that serious projects were underway. It made me wonder about the many layers of creativity happening within those walls at any given time.</p>
 
     <h2>Learning Opportunities</h2>
 
     <p>As I chatted with a few friendly people, I learned about Noisebridge's weekly Python classes. That instantly intrigued me. Python has been high on my learning agenda, and apparently, these classes center around a hands-on group project that lives on GitHub—practical and collaborative, which is right up my alley.</p>
+
+    <img src="/images/blog/post-6/WeeklySchedule.jpg" alt="Noisebridge's weekly schedule of classes and events" class="blog-image" />
 
     <p>For someone like me who has been steadily building technical skills and seeking community, the idea of showing up here weekly to both learn and contribute feels like an ideal next step.</p>
 
